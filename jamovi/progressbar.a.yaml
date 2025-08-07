@@ -1,0 +1,14 @@
+---
+name:  progressBar
+title: progressBar
+menuGroup: SimpleTests
+version: '1.0.0'
+jas: '1.2'
+
+options:
+
+    - name: doSomething
+      title: 'plot something'
+      type: Action
+
+...

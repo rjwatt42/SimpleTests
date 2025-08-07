@@ -1,0 +1,12 @@
+---
+name:  progressBar
+title: progressBar
+jrs:   '1.1'
+
+items:
+    - name: progressBarHTML
+      title: ' '
+      type: Html
+      visible: TRUE
+
+...

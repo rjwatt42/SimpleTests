@@ -1,0 +1,11 @@
+title: progressBar
+name: progressBar
+jus: '3.0'
+stage: 0
+compilerMode: aggressive
+children:
+  - type: LayoutBox
+    margin: large
+    children:
+      - type: ActionButton
+        name: doSomething
