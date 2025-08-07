@@ -16,7 +16,7 @@ progressBarClass <- if (requireNamespace('jmvcore', quietly=TRUE)) R6::R6Class(
             if (i<=10) message<-'Starting'
             if (i>10 && i<=90) message<-'Running'
             if (i>90) message<-'Finishing'
-            html<-progressBarH(i,100)
+            html<-progressBarH(i,100,message)
             self$results$progressBarHTML$setContent(html)
             private$.checkpoint()
           }
