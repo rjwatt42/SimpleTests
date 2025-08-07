@@ -1,12 +1,31 @@
 # History files
 .Rhistory
 .Rapp.history
+.Rhistor*
 
 # Session Data files
 .RData
 
-# User-specific files
-.Ruserdata
+.DS_Store
+
+
+# jamovi
+build/
+build*/
+local/
+local*/
+inst/
+inst*/
+
+temp/
+*.jmo
+newversion.R
+problems/
+local/
+.~lock*
+extdata/.~lock*
+
+connect2JamoviVersion.R
 
 # Example code in package build process
 *-Ex.R
@@ -16,10 +35,11 @@
 
 # Output files from R CMD check
 /*.Rcheck/
+*.Rproj
 
 # RStudio files
 .Rproj.user/
-
+.rproj.user/
 # produced vignettes
 vignettes/*.html
 vignettes/*.pdf
@@ -28,34 +48,14 @@ vignettes/*.pdf
 .httr-oauth
 
 # knitr and R markdown default cache directories
-*_cache/
+/*_cache/
 /cache/
 
 # Temporary files created by R markdown
 *.utf8.md
 *.knit.md
+.Rproj.user
 
-# R Environment Variables
-.Renviron
+# docs sources
 
-# renv library
-renv/library/
-renv/staging/
-
-# jamovi options js
-jamovi/ui/*.options.js
-
-# packaged module
-*.jmo
-
-# build folders
-build/
-build*/
-
-# other files / folders
-temp/
-man/
-.DS_Store
-npm-debug.log
 inst/doc
-tests/testthat/Rplots.pdf
